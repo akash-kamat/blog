@@ -1,0 +1,26 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+/* font-family: 'SF Pro Display', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* font-family: 'Bebas Neue', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+@font-face {
+    font-family: Timeline;
+    src: url('../public/Timeline.ttf');
+}
+
+@font-face {
+    font-family: FrontPage;
+    src: url('../public/FrontPageNeue.otf');
+}
+
+body {
+    background: #f1f0f7;
+    /* background: radial-gradient(circle, rgba(245, 245, 245, 1) 0%, rgba(232, 230, 249, 1) 100%); */
+}

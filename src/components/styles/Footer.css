@@ -1,0 +1,19 @@
+footer {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.githubIcon {
+    margin-right: 15px;
+}

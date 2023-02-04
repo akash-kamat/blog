@@ -1,0 +1,146 @@
+.rnr-container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0;
+}
+
+.rnr-heading_1 {
+    margin: 0;
+    font-family: 'FrontPage';
+    font-size: 4.5rem !important;
+}
+
+.rnr-heading_3 {
+    font-weight: 500 !important;
+}
+
+.rnr-paragraph {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem !important;
+}
+
+.rnr-bulleted_list_item {
+    font-size: 20px !important;
+    margin-bottom: 7px;
+}
+
+
+.rnr-image {
+    width: 50%;
+}
+
+pre {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #374166;
+    color: white;
+}
+
+.rnr-inline-code {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #505e8e;
+    color: white;
+    margin: 15px 0px;
+}
+
+.rnr-video {
+    width: 640px;
+    height: 360px;
+}
+
+.commentCont {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    background-color: #d6dcf5;
+    border-top: 30px solid rgba(28, 28, 28, 0.24);
+    /* border: 3px solid rgba(28, 28, 28, 0.24); */
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.commentTitle {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+}
+
+
+.addComment {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 15px;
+    color: white;
+    height: 35px;
+    background-color: rgb(123, 103, 237);
+    border: none;
+    border-radius: 3px;
+}
+
+.commentInput {
+    border-radius: 5px;
+    font-size: 20px;
+    height: 30px;
+    border: 2px solid rgba(85, 85, 85, 0.552);
+}
+
+.commentInput::placeholder {
+    text-align: center;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.329);
+}
+
+.comment {
+    width: fit-content;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #747fa9;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+@media (max-width:750px) {
+    .rnr-container {
+        width: auto;
+        padding: 15px 25px !important;
+    }
+
+    .rnr-heading_1 {
+        font-size: 3rem !important;
+    }
+
+    .rnr-paragraph {
+        font-size: 0.9rem !important;
+    }
+
+    .rnr-image {
+        width: 100%;
+    }
+
+    .commentCont {
+        width: auto;
+        margin: 10px 25px;
+        padding: 10px 15px;
+    }
+
+    .commentInput {
+        width: 60%;
+
+    }
+
+    .rnr-video {
+        width: 100%;
+        height: 200px;
+    }
+
+}
+
+.loadHeading {
+    margin-bottom: 50px;
+}
+
+.loadImage {
+    margin: 30px 0;
+}
